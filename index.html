@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="dist/app.css">
   </head>
   <body>
-    <div class="container">
-      <header>
+    <!-- NOTE: inizio header -->
+    <header>
+      <div class="container">
+        <!-- NOTE: inizio nav -->
         <nav>
           <div class="nav-sx">
             <img src="img/logo-small.svg" alt="logo">
@@ -16,7 +19,7 @@
 
           <div class="nav-dx">
             <ul>
-              <li><a href="#">Solution</a></li>
+              <li><a href="#">Solution <i class="fas fa-angle-down"></i></a></li>
               <li><a href="#">Pricing</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Sign in </a></li>
@@ -24,16 +27,19 @@
             </ul>
           </div>
         </nav>
+        <!-- NOTE: fine nav -->
 
         <hr>
 
+        <!-- NOTE: inizio jumbo -->
         <div class="jumbo">
           <div class="jumbo-sx">
             <h2>Understan, recognize and develop your people</h2>
             <p>Teambit helps teams create a high performing culture with regular feedback</p>
             <div class="button">
-              <span><img src="img/google-logo.svg" alt="logo google"> Sign up with Google</a></span>
-              <span><img src="img/slack-logo.svg" alt="logo google"> Sign up with Slack</a></span>
+              <span><a href="#"><img src="img/google-logo.svg" alt="logo google"> Sign up with Google</a></span>
+              or
+              <span><a href="#"><img src="img/slack-logo.svg" alt="logo google"> Sign up with Slack</a></span>
             </div>
             <a href="#">ou use your email address </a>
           </div>
@@ -42,8 +48,101 @@
             <img src="img/illustration-main.jpg" alt="img illustration">
           </div>
         </div>
-      </header>
-    </div>
+        <!-- NOTE: fine jumbo -->
+      </div>
+    </header>
+    <!-- NOTE: fine header -->
 
+
+    <!-- NOTE: inizio main -->
+    <main>
+      <!-- NOTE: inizio section illustration -->
+      <section id="teambit-illustration">
+        <div class="container">
+          <div class="not-teambit">
+            <h2>Traditional people processes lead to</h2>
+            <span><img src="img/hardcore.png" alt="hardcore">They are hardcore, formal and disconnected</span>
+            <span><img src="img/nofeedback.png" alt="hardcore">They don't encourage regular feedback</span>
+            <span><img src="img/notsafe.png" alt="hardcore">They don't make it safe to speack up</span>
+            <span><img src="img/before.png" alt="hardcore"></span>
+          </div>
+
+          <hr>
+
+          <div class="yes-teambit">
+            <h2>Traditional people processes lead to</h2>
+            <span><img src="img/lightweight.png" alt="hardcore">They are hardcore, formal and disconnected</span>
+            <span><img src="img/feedbacksuggestions.png" alt="hardcore">They don't encourage regular feedback</span>
+            <span><img src="img/safe.png" alt="hardcore">They don't make it safe to speack up</span>
+            <span><img src="img/after.png" alt="hardcore"></span>
+          </div>
+
+          <p>Here is how it works</p>
+        </div>
+      </section>
+      <!-- NOTE: fine section illustration -->
+
+      <!-- NOTE: inizio section chat -->
+      <section id="chat">
+
+        <div class="jumbo">
+          <div class="jumbo-sx">
+            <h2>Feedback to help teammates improve</h2>
+            <p>empower your teammates to know in real time what they are doing well and what they need to improve.</p>
+
+            <p><a href="#">Learn more <i class="fas fa-arrow-right"></i></a></p>
+            <img src="img/communication.jpg" alt="communication">
+          </div>
+
+          <div class="jumbo-dx">
+            <img src="img/employee-feedback.jpg" alt="img illustration">
+          </div>
+        </div>
+
+        <div class="jumbo">
+          <div class="jumbo-sx">
+            <h2>Surveys to help the team be better</h2>
+            <p>Get real-time insights into your team with research-backed, lightweight and regular surveys</p>
+
+            <p><a href="#">Learn more <i class="fas fa-arrow-right"></i></a></p>
+            <img src="img/insights.jpg" alt="insights">
+          </div>
+
+          <div class="jumbo-dx">
+            <img src="img/employee-survey.jpg" alt="img illustration">
+          </div>
+        </div>
+
+        <div class="jumbo">
+          <div class="jumbo-sx">
+            <h2>Reviews to help teammates get a fair evalution</h2>
+            <p>Make better compensation and promotion decision with objective and quick performance reviews</p>
+            <p><a href="#">Learn more <i class="fas fa-arrow-right"></i></a></p>
+            <img src="img/review.jpg" alt="review">
+          </div>
+
+          <div class="jumbo-dx">
+            <img src="img/performance-review.jpg" alt="img illustration">
+          </div>
+        </div>
+
+        <div class="jumbo">
+          <div class="jumbo-sx">
+            <h2>Praise to help teammates feel valued</h2>
+            <p>Make it a habit to recognize anf praise people who do gerat work.</p>
+            <p><a href="#">Learn more <i class="fas fa-arrow-right"></i></a></p>
+            <img src="img/recognition.jpg" alt="recognition">
+          </div>
+
+          <div class="jumbo-dx">
+            <img src="img/employee-feedback.jpg" alt="img illustration">
+          </div>
+        </div>
+
+      </section>
+      <!-- NOTE: fine section chat -->
+
+    </main>
+    <!-- NOTE: fine main -->
   </body>
 </html>

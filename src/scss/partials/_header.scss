@@ -1,3 +1,4 @@
+// NOTE: inizio nav
 nav {
   display: flex;
   justify-content: space-between;
@@ -35,9 +36,35 @@ nav {
     }
   }
 }
-hr { 
+// NOTE: fine nav
+
+hr {
   margin: 20px 0;
 }
+
+// NOTE: inizio jumbo
 .jumbo {
-   @include jumbo;
+  @include jumbo;
+  * {
+    margin: 10px 0;
+  }
+  .jumbo-sx{
+    line-height: 50px;
+    @include jumbo-sx;
+    span {
+      @include button;
+    }
+    span img{
+      height: 17px;
+      vertical-align: middle
+    }
+  }
+  .jumbo-dx {
+    @include jumbo-dx;
+
+    img {
+      width: 100%;
+    }
+  }
 }
+// NOTE: fine jumbo
