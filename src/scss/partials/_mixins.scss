@@ -10,14 +10,14 @@
 }
 @mixin jumbo-sx {
   width: 40%;
-  .button a{
-    color: white;
-  }
 }
 @mixin jumbo-dx {
   width: 60%;
 }
 @mixin button {
+  a {
+    color: white;
+  }
   padding: 5px 7px;
   color: white;
   background-color: #2c4692;

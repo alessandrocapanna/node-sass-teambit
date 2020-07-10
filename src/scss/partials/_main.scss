@@ -1,3 +1,4 @@
+// NOTE: inizio teambit-illustration
 #teambit-illustration {
   background-color: $primary_back_color;
   p{
@@ -38,7 +39,9 @@
     }
   }
 }
+// NOTE: fine teambit-illustration
 
+// NOTE: inizio chat
 #chat {
   .jumbo:nth-child(odd){
     @include jumbo-reverse;
@@ -65,5 +68,59 @@
       width: 100%;;
     }
   }
-
 }
+// NOTE: fine chat
+
+// NOTE: inizio sign up
+#sign-up {
+  text-align: center;
+  background-color: $primary_back_color;
+  .container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px 0;
+    h2 {
+      font-size: 3em;
+      padding-bottom: 20px;
+    }
+
+    .quote {
+      text-align: left;
+      margin: 20px 0;
+      background-color: white;
+      padding: 17px;
+      position: relative;
+      border: 1px solid #2c4692;
+      border-radius: 5px;
+      i {
+        position: absolute;
+        top: -15px;;
+        left: 0;
+        color: #2c4692;
+        font-size: 30px;
+      }
+      img {
+        width: 50px;
+        margin: 10px;
+        vertical-align: middle;
+      }
+      span:first-of-type {
+        color:#2c4692;
+      }
+    }
+
+    .button {
+      padding: 30px 0;
+    }
+
+    .button span {
+      @include button;
+      img{
+        height: 17px;
+        vertical-align: middle
+      }
+    }
+
+  }
+}
+// NOTE: fine sign up

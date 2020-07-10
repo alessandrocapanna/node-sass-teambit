@@ -80,10 +80,6 @@ hr {
   width: 40%;
 }
 
-.jumbo .jumbo-sx .button a {
-  color: white;
-}
-
 .jumbo .jumbo-sx span {
   padding: 5px 7px;
   color: white;
@@ -91,6 +87,10 @@ hr {
   border: 1px solid #2c4692;
   border-radius: 5px;
   font-size: 15px;
+}
+
+.jumbo .jumbo-sx span a {
+  color: white;
 }
 
 .jumbo .jumbo-sx span img {
@@ -173,10 +173,6 @@ hr {
   width: 25%;
 }
 
-#chat .jumbo-sx .button a {
-  color: white;
-}
-
 #chat .jumbo-sx a {
   color: #2c4692;
 }
@@ -195,5 +191,71 @@ hr {
 
 #chat .jumbo-dx img {
   width: 100%;
+}
+
+#sign-up {
+  text-align: center;
+  background-color: #fee8d1;
+}
+
+#sign-up .container {
+  width: 40%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+#sign-up .container h2 {
+  font-size: 3em;
+  padding-bottom: 20px;
+}
+
+#sign-up .container .quote {
+  text-align: left;
+  margin: 20px 0;
+  background-color: white;
+  padding: 17px;
+  position: relative;
+  border: 1px solid #2c4692;
+  border-radius: 5px;
+}
+
+#sign-up .container .quote i {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  color: #2c4692;
+  font-size: 30px;
+}
+
+#sign-up .container .quote img {
+  width: 50px;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+#sign-up .container .quote span:first-of-type {
+  color: #2c4692;
+}
+
+#sign-up .container .button {
+  padding: 30px 0;
+}
+
+#sign-up .container .button span {
+  padding: 5px 7px;
+  color: white;
+  background-color: #2c4692;
+  border: 1px solid #2c4692;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#sign-up .container .button span a {
+  color: white;
+}
+
+#sign-up .container .button span img {
+  height: 17px;
+  vertical-align: middle;
 }
 
