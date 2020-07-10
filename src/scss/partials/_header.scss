@@ -1,11 +1,11 @@
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items:center;
   flex-wrap: wrap;
   padding-top: 10px;
 
-  .header-sx {
+  .nav-sx {
     display: flex;
     font-size: 22px;
     font-weight: lighter;
@@ -15,7 +15,7 @@ header {
     }
   }
 
-  .header-dx {
+  .nav-dx {
     font-weight: 800;
     ul li {
       margin: 0 10px;
@@ -34,4 +34,10 @@ header {
       }
     }
   }
+}
+hr { 
+  margin: 20px 0;
+}
+.jumbo {
+   @include jumbo;
 }
